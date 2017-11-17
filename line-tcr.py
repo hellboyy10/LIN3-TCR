@@ -1189,7 +1189,7 @@ def bot(op): try: if op.type == 0: return if op.type == 5: if wait["autoAdd"] ==
                 kk.sendText(msg.to, "Check sider")
                 kc.sendText(msg.to, "Check sider")
                 try:
-                    del wait2['readPoint'][msg.to]
+                    del wait2['TERCYDUK'][msg.to]
                     del wait2['readMember'][msg.to]
                 except:
                     pass
