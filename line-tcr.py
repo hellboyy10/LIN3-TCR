@@ -46,7 +46,8 @@ Chivas Bot
 [jointicket] 
 [Cancel] 
 [Gn 「group name」] 
-[Nk 「name」] 
+[Nk 「name」]
+["kiwkiw","Tagall"]
 
 [] Command kicker only [] 
 
