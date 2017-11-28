@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-#Aan Team Bot
 
 import LINETCR
 from LINETCR.lib.curve.ttypes import *
@@ -27,19 +26,10 @@ helpMessage= """\n
 =======================\n
 ★ MODIFIER ★
 ● Bot1 rename:[text]
-● Bot2 rename:[text]
-● Bot3 rename:[text]
-● Bot4 rename:[text]
-● Bot5 rename:[text]
-● Bot6 rename:[text]
 ● All rename:[text]
 ● Allbio:[text]
 ● Bot1 clone @[name]
 ● Bot2 clone @[name]
-● Bot3 clone @[name]
-● Bot4 clone @[name]
-● Bot5 clone @[name]
-● Bot6 clone @[name]
 ● Comment:[text]
 ● Message:[text]
 ● Bot1-6 backup run
@@ -206,9 +196,9 @@ autocancel = {}
 autoinvite = []
 autoleaveroom = []
 targets = []
-Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid]
-admin = ["ub76a0153a283da9a1443dfb043181335","ud010d283f3fb4157ec43ad4e53fe6d3c"]
-owner = ["ub76a0153a283da9a1443dfb043181335"]
+Bots=[mid,]
+admin = [""]
+owner = [""]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -272,30 +262,6 @@ backup.pictureStatus = contact.pictureStatus
 
 contact = ki.getProfile()
 backup = ki.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
-
-contact = kk.getProfile()
-backup = kk.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
-
-contact = kc.getProfile()
-backup = kc.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
-
-contact = ks.getProfile()
-backup = ks.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
-
-contact = kt.getProfile()
-backup = kt.getProfile()
 backup.displayName = contact.displayName
 backup.statusMessage = contact.statusMessage
 backup.pictureStatus = contact.pictureStatus
