@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import LINETCR
+import LINI-CHIVAS
 from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
 from bs4 import BeautifulSoup
@@ -15,7 +15,7 @@ cl.loginResult()
 #kicker ghost
 #kl = LINETCR.LINE()
 #kl.login(token="")
-#kl.loginResult()
+#kl.loginResult7y
 
 print "Sz69"
 reload(sys)
