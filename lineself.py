@@ -8,14 +8,14 @@ import time, random, sys, re, os, json, subprocess, threading, string, codecs, r
 from gtts import gTTS
 
 #tinkerbell
-cl = LINETCR.LINE()
+cl = LINI-CHIVAS.LINE()
 cl.login(qr=True)
 cl.loginResult()
 
 #kicker ghost
-#kl = LINETCR.LINE()
+#kl = LINI-CHIVAS.LINE()
 #kl.login(token="")
-#kl.loginResult7y
+#kl.loginResult()
 
 print "Sz69"
 reload(sys)
